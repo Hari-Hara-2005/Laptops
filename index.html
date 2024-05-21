@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-green-900 text-black">
+    <header class="bg-white flex items-center justify-between mx-auto p-2 ">
+        <div class="text-[30px] font-bold ">
+            <h1> Laptop </h1>
+        </div>
+        <div id=""
+            class="nav-links duration-500 lg:static absolute bg-white left-0  lg:min-h-fit min-h-[25vh] w-full top-[-50%] lg:w-auto flex px-5">
+            <nav class="">
+                <ul class=" lg:flex text-[20px] font-bold gap-8 lg:flex-row flex-col  ">
+                    <li class="mt-2"><a href="./Products.html"
+                            class="hover:text-gray-600 hover:underline decoration-green-900  underline-offset-[5px]">Products</a>
+                    </li>
+                    <li class="mt-2"><a href="./Solution.html"
+                            class="hover:text-gray-600 hover:underline underline-offset-[8px]">Solution</a>
+                    </li>
+                    <li class="mt-2"><a href="./Resource.html"
+                            class="hover:text-gray-600 hover:underline underline-offset-[8px]">Resource</a>
+                    </li>
+                    <li class="mt-2"><a href="./pricing.html"
+                            class="hover:text-gray-600 hover:underline underline-offset-[8px]">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="flex items-center gap-4">
+            <button class="bg-green-900 text-white hover:bg-white hover:text-black px-4 py-4 rounded-lg font-bold">sign
+                in</button>
+            <i onclick="onToggleMenu(this)" class='bx bx-menu lg:hidden text-[2rem]' name="menu"></i>
+        </div>
+    </header>
+    <script>
+        const navLinks = document.querySelector('.nav-links')
+        function onToggleMenu(e) {
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[9%]')
+        }
+    </script>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-10 mx-20 ">
+        <div
+            class="bg-white  mt-20 p-5 border-[3px] border-black rounded-2xl h-[507px] hover:scale-110 transition-all duration-500 cursor-pointer shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] ">
+            <img class=" w-[250px] mx-auto" src="Laptop-1.png">
+            <div class="text-center mt-5">
+                <p class="text-red-500">Get airpods</p>
+                <h1 class="font-serif text-2xl">Macbook air13"(M1)</h1>
+
+                <head class="">from<br>₹89900.00</head>
+                <h2 class="text-blue-400 text-3xl">Includes eduction discount</h2>
+            </div>
+        </div>
+        <div
+            class="bg-white hover:scale-110 border-[3px] border-black  transition-all duration-500 cursor-pointer mt-20 p-5 rounded-2xl h-[507px] shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]">
+            <img class="w-[20rem] mx-auto" src="Laptop-3.png">
+            <div class="text-center">
+                <p class="text-red-500">Get airpods</p>
+                <h1 class="font-serif text-2xl">Macbook air13"(M1)</h1>
+
+                <head class="">from<br>₹89900.00</head>
+                <h2 class="text-blue-400 text-3xl">Includes eduction discount</h2>
+            </div>
+        </div>
+        <div
+            class="bg-white border-[3px] border-black  hover:scale-110 transition-all duration-500 cursor-pointer  mt-20 p-5 rounded-2xl h-[507px] shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]">
+            <img class=" mt-10 w-[320px] mx-auto" src="Laptop-6.png">
+            <div class="text-center mt-11">
+                <p class="text-red-500">Get airpods</p>
+                <h1 class="font-serif text-2xl">Macbook air13"(M1)</h1>
+
+                <head class="">from<br>₹89900.00</head>
+                <h2 class="text-blue-400 text-3xl">Includes eduction discount</h2>
+            </div>
+        </div>
+        <div
+            class="bg-white border-[3px] border-black  hover:scale-110 transition-all duration-500 cursor-pointer mt-20 p-5 rounded-2xl h-[507px] shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]">
+            <img class="mt-10 w-[320px] mx-auto" src="Laptop-7.png">
+            <div class="text-center mt-10">
+                <p class="text-red-500">Get airpods</p>
+                <h1 class="font-serif text-2xl">Macbook air13"(M1)</h1>
+
+                <head class="">from<br>₹89900.00</head>
+                <h2 class="text-blue-400 text-3xl">Includes eduction discount</h2>
+                <button>order now</button>
+            </div>
+        </div>
+        <div
+            class="bg-white border-[3px] border-black  hover:scale-110 transition-all duration-500 cursor-pointer mt-20 p-5 rounded-2xl h-[507px] shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]">
+            <img class="mt-10 w-[320px] mx-auto" src="Laptop-8.png">
+            <div class="text-center mt-10">
+                <p class="text-red-500">Get airpods</p>
+                <h1 class="font-serif text-2xl">Macbook air13"(M1)</h1>
+
+                <head class="">from<br>₹89900.00</head>
+                <h2 class="text-blue-400 text-3xl">Includes eduction discount</h2>
+            </div>
+        </div>
+        <div
+            class="bg-white border-[3px] border-black  hover:scale-110 transition-all duration-500 cursor-pointer mt-20 p-5 rounded-2xl h-[507px] shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]">
+            <img class="mt-10 w-[320px] mx-auto" src="Laptop-9.png">
+            <div class="text-center mt-14">
+                <p class="text-red-500">Get airpods</p>
+                <h1 class="font-serif text-2xl">Macbook air13"(M1)</h1>
+
+                <head class="">from<br>₹89900.00</head>
+                <h2 class="text-blue-400 text-3xl">Includes eduction discount</h2>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
